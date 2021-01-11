@@ -12,7 +12,7 @@
             <BR>
             <BR>
             <h5></<h5>
-            <h5>Correo electrónico: personero@alcaldiadepiedecuesta.gov.co</h5>
+            <h5>Correo electrónico: contacto@personeriapiedecuesta.com</h5>
             <h5>Dirección: Cra 6 No. 9-98 Edificio del Concejo Municipal -2do piso</h5>
             <h5>Teléfono: (57+7)6 55 02 71 - 6550271</h5>
             <BR>
@@ -37,7 +37,7 @@
 </div>
  
 <div style="text-align: center; padding-top:20px;">
-<h5><a href="http://www.cybersecurity.com.co" style="text-decoration: none;color:azure;">Power by cybersecurity</a></h5>
+<h5><a href="http://www.cybersecurity.com.co" style="text-decoration: none;color:azure;">Powered by cybersecurity</a></h5>
 </div>        
   </div>
    <!-- Fin Footer -->

@@ -9,24 +9,36 @@
   
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-     <!-- Style -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+    <!-- Style -->
      <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
      <script src="https://kit.fontawesome.com/7bb497247d.js" crossorigin="anonymous"></script>
+     
+     
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+     
 
     <title>Personeria Municipal de Piedecuesta</title>
   </head>
   <body>
       
-  <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-      <div class="container">
+  <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+      <div class="container ">
         <a class="navbar-brand" href="javascript:location.reload();">
           <img src="<?php bloginfo('template_url'); ?>/assets/logos/logo-personeria-blanco.png" alt="Personeria_de_piedecuesta_logo" >
           </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header" aria-controls="header" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSuportContend" aria-controls="navbarSuportContend">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="navbar nav-link">
+
+
+       <div class="collapse navbar-collapse " id="navbarSuportContend">
+        <div class="navbar-nav ml-auto">
 
         <?php wp_nav_menu(array(
                 'theme_location' => 'superior',
@@ -40,6 +52,7 @@
 </div>
 
 
+      </div>
       </div>
     </nav>
   

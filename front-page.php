@@ -20,15 +20,17 @@ echo do_shortcode('[smartslider3 slider="2"]');
  <!-- Image menu -->
  <nav>
 <div align='center' class="container">
-<div class="raw ">
-    <img src="<?php bloginfo('template_url'); ?>/assets/iconos/Radicacion-pqrs.png" class="img-menu" prueba> 
-    <img src="<?php bloginfo('template_url'); ?>/assets/iconos/derechos-humanos.png" class="img-menu">
-    <img src="<?php bloginfo('template_url'); ?>/assets/iconos/Notificaciones-y-avisos.png" class="img-menu">    
-    <img src="<?php bloginfo('template_url'); ?>/assets/iconos/Participacion-ciudadana.png" class="img-menu">
-    <img src="<?php bloginfo('template_url'); ?>/assets/iconos/portal-ninosyninas.png" class="img-menu"> 
-    <img src="<?php bloginfo('template_url'); ?>/assets/iconos/calendario-de-actividades.png" class="img-menu">
-    <img src="<?php bloginfo('template_url'); ?>/assets/iconos/vigilancia-administrativa.png" class="img-menu">
-    </div>   
+ <div class="raw ">
+    <div class="contenedor">
+        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/Radicacion-pqrs.png" class="img-menu" > 
+        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/derechos-humanos.png" class="img-menu">
+        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/Notificaciones-y-avisos.png" class="img-menu">    
+        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/Participacion-ciudadana.png" class="img-menu">
+        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/portal-ninosyninas.png" class="img-menu"> 
+        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/calendario-de-actividades.png" class="img-menu">
+        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/vigilancia-administrativa.png" class="img-menu">
+    </div>
+  </div>   
 </div>
 </nav>
 <!-- Fin image menu --> 
@@ -123,10 +125,10 @@ echo do_shortcode('[smartslider3 slider="2"]');
     <!-- Fin contenido-->
 
     <!-- ZONA MULTIMEDIA-->
-<div>
+<div style="align-items: center;">
   
   <h3 class="titulo_multi">Zona Multimedia </h3>
-  <iframe width="800" height="400" frameborder="0" allow="autoplay" class="video" src="https://www.youtube.com/embed/videoseries?list=PLYHnpx6OCnHsHUdfsNI-rOpDR1muETu9C"></iframe>
+  <iframe  width = "800" height = "400" frameborder = "0" allow = "autoplay" class = "video" src ="https://www.youtube.com/embed/x-m7uIWe1ns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
 <!-- FIN ZONA MULTIMEDIA-->
@@ -146,7 +148,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
                 <button type="button" class="btn btn-ttc btn-lg ">Radicacion</button>  
           </div>
           <div class="col-lg-6 pb-4 pt-4">
-                <button type="button" class="btn btn-ttc btn-lg">Consulta</button>                
+                <button type="button" class="btn btn-ttc btn-lg" style="font-size:larger">Información</button>                
                 </div>
                 </div>
               </div>           
