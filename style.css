@@ -7,6 +7,7 @@ Version: 1.0
 tags: Personeria, Piedecuesta, single, ligth.
 */
 
+
 body{
   padding: 0px;
   margin: 0px;
@@ -48,30 +49,7 @@ width: auto;
     color: #FFFFFF
   }
   
-
-/* MENU CON IMAGENES */
-
-/*.contenedor{
-  width:100%;
-  max-width:1200px;
-  margin-left: 0%;
-  margin-right: 0%;
-  display:flex;
-  text-align: center;
-}
-.contenedor img{
-  height: auto;
-  width: 120px;  
-  background: #212529;
-  border: 1px solid black;
-  margin: 2px;
-  padding: 1px;
-  border-radius: 3px;
-  text-align: center;
-  cursor: pointer;
-  transition: .3s;
-  cursor: pointer;
-}*/
+/* Menu del body */
 
  .img-menu {
   height: auto;
@@ -90,8 +68,27 @@ width: auto;
     opacity: 0.9; 
     background: rgba(11, 103, 123, 0.6);
 
-
   }
+
+  /* Logos empresas del estado */
+  .img-menu2 {
+    height: auto;
+    width: 120px;
+    background: #fff;
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    cursor: pointer;
+    overflow: hidden;
+     }
+   .img-menu2:hover{
+      opacity: 0.9; 
+      background: rgba(11, 103, 123, 0.6);
+  
+    }
 
  /*
  CSS PARA LOS TITULOS 
@@ -372,3 +369,4 @@ display: none;
 .cont_redes span{
   display: block;
 }
+

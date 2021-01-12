@@ -1,6 +1,11 @@
 <?php get_header (); ?>
 
-<div style="padding-bottom: 20px;">
+
+   <!-- CDNS para el carrusel logo --->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous"></script>
+     
+<div style="padding-bottom: 20px; padding-top:80px">
 <?php
 echo do_shortcode('[smartslider3 slider="2"]');
 ?>
@@ -22,13 +27,13 @@ echo do_shortcode('[smartslider3 slider="2"]');
 <div align='center' class="container">
  <div class="raw ">
     <div class="contenedor">
-        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/Radicacion-pqrs.png" class="img-menu" > 
-        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/derechos-humanos.png" class="img-menu">
-        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/Notificaciones-y-avisos.png" class="img-menu">    
-        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/Participacion-ciudadana.png" class="img-menu">
-        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/portal-ninosyninas.png" class="img-menu"> 
-        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/calendario-de-actividades.png" class="img-menu">
-        <img src="<?php bloginfo('template_url'); ?>/assets/iconos/vigilancia-administrativa.png" class="img-menu">
+        <a href="http://www.personeriapiedecuesta.com/pqrs"><img src="<?php bloginfo('template_url'); ?>/assets/iconos/Radicacion-pqrs.png" class="img-menu" ></a> 
+        <a href="http://www.personeriapiedecuesta.com/derechos-humanos"><img src="<?php bloginfo('template_url'); ?>/assets/iconos/derechos-humanos.png" class="img-menu"></a>
+        <a href="http://www.personeriapiedecuesta.com/notificaciones"><img src="<?php bloginfo('template_url'); ?>/assets/iconos/Notificaciones-y-avisos.png" class="img-menu"></a>   
+        <a href="http://www.personeriapiedecuesta.com/participacionciudadana"><img src="<?php bloginfo('template_url'); ?>/assets/iconos/Participacion-ciudadana.png" class="img-menu"></a>
+        <a href="http://www.personeriapiedecuesta.com/ninosyninas"><img src="<?php bloginfo('template_url'); ?>/assets/iconos/portal-ninosyninas.png" class="img-menu"></a> 
+        <a href="http://www.personeriapiedecuesta.com/calendarios"><img src="<?php bloginfo('template_url'); ?>/assets/iconos/calendario-de-actividades.png" class="img-menu"></a>
+        <a href="http://www.personeriapiedecuesta.com/vigilancia"><img src="<?php bloginfo('template_url'); ?>/assets/iconos/vigilancia-administrativa.png" class="img-menu"></a>
     </div>
   </div>   
 </div>
@@ -38,7 +43,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
 
  <!-- Titulo boletines  -->
      
- <div ><h1 class="titulos">Boletines</h1></div>
+ <div ><h1 class="titulos">Personería Informa</h1></div>
 
  <!-- Fin Titulo Boletines --> 
 
@@ -83,7 +88,7 @@ echo do_shortcode('[smartslider3 slider="2"]');
 
          <!-- Boton boletines -->
          <div class="d-grid gap-2 d-md-block text-center">
-         <button type="button" class="btn btn-warning btn-personeria">Lista de Boletines</button>
+         <a href="http://personeriadepiedecuesta.com/blog"><button type="button" class="btn btn-warning btn-personeria">Mas entradas</button></a>
          </div>
          <!-- Fin boton boletines-->
 
@@ -145,10 +150,10 @@ echo do_shortcode('[smartslider3 slider="2"]');
             
               <div class="row">
                 <div class="col-lg-6 pb-4 pt-4">
-                <button type="button" class="btn btn-ttc btn-lg ">Radicacion</button>  
+                <a href="http://www.personeriapiedecuesta.com/pqrs"><button type="button" class="btn btn-ttc btn-lg ">Radicacion</button></a>  
           </div>
           <div class="col-lg-6 pb-4 pt-4">
-                <button type="button" class="btn btn-ttc btn-lg" style="font-size:larger">Información</button>                
+                <a href="http://www.personeriapiedecuesta.com/informacionpqrs"><button  type="button" class="btn btn-ttc btn-lg" style="font-size:larger">Información</button></a>                
                 </div>
                 </div>
               </div>           
@@ -163,12 +168,28 @@ echo do_shortcode('[smartslider3 slider="2"]');
   <!-- fin pqr-->
 
     <!-- inicio banner inferior-->
-<div class="container">
+<div class="container" style="padding-bottom: 20px;">
 <div class="row">
+<img src="<?php bloginfo('template_url'); ?>/assets/logos/logospersoneria-alcaldia-piedecuesta.png"alt=""  height= "auto"; max-width= "100%" align="center">
+  </div>
+</div>
 
-    <img src="<?php bloginfo('template_url'); ?>/assets/logos/logospersoneria-alcaldia-piedecuesta.png"alt=""  height= "auto"; max-width= "100%" align="center">
+<!-- Logo carrusel -->
+<nav>
+<div align='center' class="container">
+ <div class="raw ">
+    <div class="contenedor" style="padding-bottom: 30px;">
+        <a href="http://www.alcaldiadepiedecuesta.gov.co/"><img src="<?php bloginfo('template_url'); ?>/assets/logos/logo-alcaldiapiedecuesta.png" class="img-menu2" ></a> 
+        <a href="https://www.contraloria.gov.co/"><img src="<?php bloginfo('template_url'); ?>/assets/logos/logo-contraloria.png" class="img-menu2"></a>
+        <a href="http://www.concejopiedecuesta.gov.co/"><img src="<?php bloginfo('template_url'); ?>/assets/logos/logo-concejo-piedecuesta.png" class="img-menu2"></a>   
+        <a href="http://www.santander.gov.co"><img src="<?php bloginfo('template_url'); ?>/assets/logos/logo-gobernacion-de-santander.png" class="img-menu2"></a>
+        <a href="https://www.mintic.gov.co/portal/inicio/"><img src="<?php bloginfo('template_url'); ?>/assets/logos/logo-gobierno-en-linea.png" class="img-menu2"></a> 
+        <a href="https://www.policia.gov.co/"><img src="<?php bloginfo('template_url'); ?>/assets/logos/logopolicia-nacional.png" class="img-menu2"></a>
+        <a href="https://piedecuestanaesp.gov.co/"><img src="<?php bloginfo('template_url'); ?>/assets/logos/logo-piedecuestana.png" class="img-menu2"></a>
     </div>
-    </div>
+  </div>   
+</div>
+</nav>
   
 <!-- fin banner inferior-->
   <?php get_footer(); ?>
